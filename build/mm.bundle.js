@@ -1,4 +1,4 @@
-// (C) Copyright 2015 Martin Dougiamas
+﻿// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -65705,9 +65705,9 @@ angular.module('mm.addons.mod_wiki')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
-    "desktopappname": "Moodle Desktop",
+    "app_id" : "com.gss.etestmobile",
+    "appname": "GSS eTest Mobile",
+    "desktopappname": "GSS eTest Desktop",
     "versioncode" : "2019",
     "versionname" : "3.3.1",
     "cache_expiration_time" : 300000,
