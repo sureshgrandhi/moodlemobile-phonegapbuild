@@ -6976,18 +6976,21 @@ angular.module('mm.core')
         };
         self.getDocsUrl = function(release, page) {
             page = page || 'Mobile_app';
-            var docsurl = 'https://docs.moodle.org/en/' + page;
-            if (typeof release != 'undefined') {
-                var version = release.substr(0, 3).replace(".", "");
-                if (parseInt(version) >= 24) {
-                    docsurl = docsurl.replace('https://docs.moodle.org/', 'https://docs.moodle.org/' + version + '/');
-                }
-            }
-            return $mmLang.getCurrentLanguage().then(function(lang) {
-                return docsurl.replace('/en/', '/' + lang + '/');
-            }, function() {
-                return docsurl;
-            });
+            // modified for gvit goals app -> change this url for app
+	    var docsurl = 'https://gssinformatics.com/gassess/mobile_help/;
+	    return docsurl;
+            //var docsurl = 'https://docs.moodle.org/en/' + page;
+            //if (typeof release != 'undefined') {
+            //    var version = release.substr(0, 3).replace(".", "");
+            //    if (parseInt(version) >= 24) {
+            //        docsurl = docsurl.replace('https://docs.moodle.org/', 'https://docs.moodle.org/' + version + '/');
+            //    }
+            //}
+            //return $mmLang.getCurrentLanguage().then(function(lang) {
+            //    return docsurl.replace('/en/', '/' + lang + '/');
+            //}, function() {
+            //    return docsurl;
+            //});
         };
         self.timestamp = function() {
             return Math.round(Date.now() / 1000);
