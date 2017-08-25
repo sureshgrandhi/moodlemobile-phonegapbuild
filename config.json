@@ -1,5 +1,5 @@
 ﻿{
-    "app_id" : "com.gss.etestmobile",
+    "app_id" : "com.gss.goalsmobile",
     "appname": "GVIT Goals Mobile",
     "desktopappname": "GVIT Goals Desktop",
     "versioncode" : "2019",
@@ -11,7 +11,7 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "gssinformatics.com/gassess",
+    "siteurl": "http://gssinformatics.com/gassess",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
     "privacypolicy": "http://gssinformatics.com/gassess/page/view.php?id=8148"
