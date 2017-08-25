@@ -5,10 +5,10 @@
         id        = "com.gss.etestmobile"
         versionCode = "20190"
         version   = "3.3.1">
-    <name>eTest Mobile</name>
+    <name>GVIT Goals</name>
 
     <description>
-        GSS eTest Mobile official app
+        GVIT Goals Mobile official app
     </description>
 
     <author href="http://gssinformatics.com" email="mobile@gssinformatics.com">

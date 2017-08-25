@@ -1,7 +1,7 @@
 ﻿{
     "app_id" : "com.gss.etestmobile",
-    "appname": "GSS eTest Mobile",
-    "desktopappname": "Moodle Desktop",
+    "appname": "GVIT Goals Mobile",
+    "desktopappname": "GVIT Goals Desktop",
     "versioncode" : "2019",
     "versionname" : "3.3.1",
     "cache_expiration_time" : 300000,
@@ -11,8 +11,8 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://www.gssinformatics.com/gassess",
+    "siteurl": "gssinformatics.com/gassess",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "https://moodle.org/mod/page/view.php?id=8148"
+    "privacypolicy": "http://gssinformatics.com/gassess/page/view.php?id=8148"
 }
