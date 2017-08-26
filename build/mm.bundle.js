@@ -4730,10 +4730,10 @@ angular.module('mm.core')
             }
         };
         Site.prototype.getDocsUrl = function(page) {
-	    //var docUrl = 'http://gssinformatics.com/gassess/mobile_help/mobilehelp.php';
+	    var docUrl = 'http://gssinformatics.com/gassess/mobile_help/mobilehelp.php';
             var release = this.infos.release ? this.infos.release : undefined;
-            return $mmUtil.getDocsUrl(release, page);
-	    //  return $docUrl;
+            //return $mmUtil.getDocsUrl(release, page);
+	      return $docUrl;
         };
         Site.prototype.checkLocalMobilePlugin = function(retrying) {
             var siteurl = this.siteurl,
