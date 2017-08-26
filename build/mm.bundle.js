@@ -4730,11 +4730,8 @@ angular.module('mm.core')
             }
         };
         Site.prototype.getDocsUrl = function(page) {
-	    var docUrl = 'http://gssinformatics.com/gassess/mobile_help/mobilehelp.php';
-            var release = this.infos.release ? this.infos.release : undefined;
-            //return $mmUtil.getDocsUrl(release, page);
-	      return $docUrl;
-        };
+	    var release = this.infos.release ? this.infos.release : undefined;
+            return $mmUtil.getDocsUrl(release, pag       };
         Site.prototype.checkLocalMobilePlugin = function(retrying) {
             var siteurl = this.siteurl,
                 self = this,
@@ -6979,7 +6976,7 @@ angular.module('mm.core')
         self.getDocsUrl = function(release, page) {
                 page = page || 'Mobile_app';
             
-		var docsurl = 'https://docs.moodle.org/en/' + page;
+		var docsurl = 'http://gssinformatics.com/gassess/mobile_help/mobilehelp.php';
             
 		if (typeof release != 'undefined') {
                 
@@ -6987,7 +6984,7 @@ angular.module('mm.core')
                 
 			if (parseInt(version) >= 24) {
                     
-				docsurl = docsurl.replace('https://docs.moodle.org/', 'https://docs.moodle.org/' + version + '/');
+				docsurl = docsurl.replace('http://gssinformatics.com/gassess/', 'http://gssinformatics.com/gassess/' );
                 }
             
 		}
