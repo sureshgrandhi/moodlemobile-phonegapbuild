@@ -4731,7 +4731,8 @@ angular.module('mm.core')
         };
         Site.prototype.getDocsUrl = function(page) {
 	    var release = this.infos.release ? this.infos.release : undefined;
-            return $mmUtil.getDocsUrl(release, pag       };
+            return $mmUtil.getDocsUrl(release, page);
+	};
         Site.prototype.checkLocalMobilePlugin = function(retrying) {
             var siteurl = this.siteurl,
                 self = this,
@@ -6984,7 +6985,7 @@ angular.module('mm.core')
                 
 			if (parseInt(version) >= 24) {
                     
-				docsurl = docsurl.replace('http://gssinformatics.com/gassess/', 'http://gssinformatics.com/gassess/' );
+				docsurl = docsurl.replace('http://gssinformatics.com/gassess/', 'http://gssinformatics.com/gassess/');
                 }
             
 		}
