@@ -6987,10 +6987,10 @@ angular.module('mm.core')
                 }
             }
             return $mmLang.getCurrentLanguage().then(function(lang) {
-		docsurl = 'https://gssinformatics.com/gassess/mobile_help/;
+		docsurl = 'https://gssinformatics.com/gassess/mobile_help/mobilehelp.php;
                 return docsurl.replace('/en/', '/' + lang + '/');
             }, function() {
-		docsurl = 'https://gssinformatics.com/gassess/mobile_help/;
+		docsurl = 'https://gssinformatics.com/gassess/mobile_help/mobilehelp.php;
                 return docsurl;
             });
         };
