@@ -6975,22 +6975,25 @@ angular.module('mm.core')
             return countries;
         };
         self.getDocsUrl = function(release, page) {
-            page = page || 'Mobile_app';
-            // modified for gvit goals app -> change this url for app
-	    
-	  
-            var docsurl = 'https://docs.moodle.org/en/' + page;
-            if (typeof release != 'undefined') {
-                var version = release.substr(0, 3).replace(".", "");
-                if (parseInt(version) >= 24) {
-                    docsurl = docsurl.replace('https://docs.moodle.org/', 'https://docs.moodle.org/' + version + '/');
+                page = page || 'Mobile_app';
+            
+		var docsurl = 'https://docs.moodle.org/en/' + page;
+            
+		if (typeof release != 'undefined') {
+                
+			var version = release.substr(0, 3).replace(".", "");
+                
+			if (parseInt(version) >= 24) {
+                    
+				docsurl = docsurl.replace('https://docs.moodle.org/', 'https://docs.moodle.org/' + version + '/');
                 }
-            }
+            
+		}
             return $mmLang.getCurrentLanguage().then(function(lang) {
-		docsurl = 'https://gssinformatics.com/gassess/mobile_help/mobilehelp.php;
-                return docsurl.replace('/en/', '/' + lang + '/');
-            }, function() {
-		docsurl = 'https://gssinformatics.com/gassess/mobile_help/mobilehelp.php;
+                
+		return docsurl.replace('/en/', '/' + lang + '/');
+            
+	}, function() {
                 return docsurl;
             });
         };
