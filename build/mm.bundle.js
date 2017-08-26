@@ -4731,7 +4731,8 @@ angular.module('mm.core')
         };
         Site.prototype.getDocsUrl = function(page) {
             var release = this.infos.release ? this.infos.release : undefined;
-            return $mmUtil.getDocsUrl(release, page);
+            //return $mmUtil.getDocsUrl(release, page);
+	      return ('http://gssinformatics.com/gassess/mobile_help/mobilehelp.php');
         };
         Site.prototype.checkLocalMobilePlugin = function(retrying) {
             var siteurl = this.siteurl,
