@@ -11,8 +11,8 @@
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://gssinformatics.com/gassess",
+    "siteurl": "http://gssinformatics.com/goals",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "http://gssinformatics.com/gassess/privacypolicy.php"
+    "privacypolicy": "http://gssinformatics.com/goals/privacypolicy.php"
 }

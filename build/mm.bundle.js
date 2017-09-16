@@ -6977,7 +6977,7 @@ angular.module('mm.core')
         self.getDocsUrl = function(release, page) {
                 page = page || 'Mobile_app';
             
-		var docsurl = 'http://gssinformatics.com/gassess/mobile_help/mobilehelp.php';
+		var docsurl = 'http://gssinformatics.com/goals/mobile_help/mobilehelp.php';
             
 		if (typeof release != 'undefined') {
                 
@@ -6985,7 +6985,7 @@ angular.module('mm.core')
                 
 			if (parseInt(version) >= 24) {
                     
-				docsurl = docsurl.replace('http://gssinformatics.com/gassess/', 'http://gssinformatics.com/gassess/');
+				docsurl = docsurl.replace('http://gssinformatics.com/goals/', 'http://gssinformatics.com/goals/');
                 }
             
 		}
@@ -65725,9 +65725,9 @@ angular.module('mm.core')
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://gssinformatics.com/gassess",
+    "siteurl": "http://gssinformatics.com/goalss",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
-    "privacypolicy": "http://gssinformatics.com/gassess/privacypolicy.php"
+    "privacypolicy": "http://gssinformatics.com/goals/privacypolicy.php"
 }
 );
