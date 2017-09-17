@@ -65725,7 +65725,7 @@ angular.module('mm.core')
     "wsextservice" : "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "http://gssinformatics.com/goalss",
+    "siteurl": "http://gssinformatics.com/goals",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
     "privacypolicy": "http://gssinformatics.com/goals/privacypolicy.php"
